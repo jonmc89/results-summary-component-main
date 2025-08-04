@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 18px;
 }
 
 /* Colours */
@@ -22,7 +23,7 @@
   --Red50: #fff6f6;
   --Green500: #00bb8f;
   --Green50: #f2fcf9;
-  --Gradient1: linear-gradient(#4d21c9, #2521c9, #fff);
+  --Gradient1: linear-gradient(#4d21c9, hsla(241, 72%, 46%, 0));
   --Gradient2: linear-gradient(#7755ff, #2f2ce9);
 }
 
@@ -47,6 +48,74 @@
   src: url(./assets/fonts/static/HankenGrotesk-Medium.ttf) format("truetype");
   font-weight: 500;
   font-style: normal;
+}
+
+/* ... */
+
+/* || Main Styles */
+
+/* Mobile view */
+
+.card {
+  width: 100%;
+  height: 100%;
+}
+
+.totals-section {
+  width: 100%;
+  height: auto;
+  background-image: var(--Gradient2);
+  border-bottom-right-radius: 2.5em;
+  border-bottom-left-radius: 2.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0;
+}
+
+h1 {
+  font-family: "Hanken Grotesk Bold", sans-serif, serif;
+  font-size: 1.2em;
+  color: var(--Navy200);
+  margin-bottom: 1.5em;
+}
+
+.total-score {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: var(--Gradient1);
+  margin-bottom: 1.5em;
+}
+
+.main-score {
+  font-family: "Hanken Grotesk Extra Bold", sans-serif, serif;
+  color: var(--White);
+  font-size: 3.2em;
+}
+
+.out-of {
+  font-family: "Hanken Grotesk Bold", sans-serif, serif;
+  color: var(--Navy200);
+}
+
+.score-word {
+  font-family: "Hanken Grotesk Bold", sans-serif, serif;
+  font-size: 1.8em;
+  color: var(--White);
+  margin-bottom: 0.5em;
+}
+
+.score-message {
+  font-family: "Hanken Grotesk Normal", sans-serif, serif;
+  color: var(--Navy200);
+  font-size: 1.05em;
+  width: 70%;
+  text-align: center;
 }
 
 /* ... */
