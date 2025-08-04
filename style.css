@@ -1,0 +1,52 @@
+/* || Universal Styling */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Colours */
+
+:root {
+  --White: #fff;
+  --Black: #000;
+  --Navy950: #303b59;
+  --Navy200: #cac9ff;
+  --Navy50: #ecf2ff;
+  --Blue800: #1125d6;
+  --Blue50: #f3f4fd;
+  --Yellow400: #ffb21e;
+  --Yellow50: #fffbf4;
+  --Red400: #ff5555;
+  --Red50: #fff6f6;
+  --Green500: #00bb8f;
+  --Green50: #f2fcf9;
+  --Gradient1: linear-gradient(#4d21c9, #2521c9, #fff);
+  --Gradient2: linear-gradient(#7755ff, #2f2ce9);
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: "Hanken Grotesk Bold";
+  src: url(./assets/fonts/static/HankenGrotesk-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hanken Grotesk Extra Bold";
+  src: url(./assets/fonts/static/HankenGrotesk-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hanken Grotesk Normal";
+  src: url(./assets/fonts/static/HankenGrotesk-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* ... */
