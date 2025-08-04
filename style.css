@@ -12,6 +12,7 @@
 :root {
   --White: #fff;
   --Black: #000;
+  --Grey: #777;
   --Navy950: #303b59;
   --Navy200: #cac9ff;
   --Navy50: #ecf2ff;
@@ -73,8 +74,14 @@
   padding: 2em 0;
 }
 
-h1 {
+.out-of,
+.score-word,
+h1,
+h2 {
   font-family: "Hanken Grotesk Bold", sans-serif, serif;
+}
+
+h1 {
   font-size: 1.2em;
   color: var(--Navy200);
   margin-bottom: 1.5em;
@@ -89,7 +96,7 @@ h1 {
   align-items: center;
   justify-content: center;
   background-image: var(--Gradient1);
-  margin-bottom: 1.5em;
+  margin-bottom: 1.2em;
 }
 
 .main-score {
@@ -99,23 +106,102 @@ h1 {
 }
 
 .out-of {
-  font-family: "Hanken Grotesk Bold", sans-serif, serif;
   color: var(--Navy200);
 }
 
 .score-word {
-  font-family: "Hanken Grotesk Bold", sans-serif, serif;
   font-size: 1.8em;
   color: var(--White);
   margin-bottom: 0.5em;
 }
 
+p,
 .score-message {
   font-family: "Hanken Grotesk Normal", sans-serif, serif;
+}
+
+.score-message {
   color: var(--Navy200);
   font-size: 1.05em;
   width: 70%;
   text-align: center;
+}
+
+.summary-section {
+  padding: 2em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 1em;
+}
+
+.summary-section h2 {
+  text-align: left;
+  width: 100%;
+  font-size: 1em;
+}
+
+.stats {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  border-radius: 1em;
+}
+
+.topic {
+  display: flex;
+}
+
+.topic img {
+  margin-right: 1em;
+}
+
+.reaction {
+  background-color: var(--Red50);
+  color: var(--Red400);
+}
+
+.memory {
+  background-color: var(--Yellow50);
+  color: var(--Yellow400);
+}
+
+.verbal {
+  background-color: var(--Green50);
+  color: var(--Green500);
+}
+
+.visual {
+  background-color: var(--Blue50);
+  color: var(--Blue800);
+  margin-bottom: 1em;
+}
+
+.actual-value {
+  color: var(--Black);
+}
+
+.score-value {
+  color: var(--Grey);
+}
+
+button {
+  width: 100%;
+  padding: 1.2em 1em;
+  border-radius: 4em;
+  border: none;
+  background-color: var(--Navy950);
+  color: var(--White);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-image: var(--Gradient2);
 }
 
 /* ... */
