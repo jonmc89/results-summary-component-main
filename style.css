@@ -221,9 +221,9 @@ button:hover {
   }
 
   .card {
+    max-width: 40em;
+    max-height: 26em;
     display: flex;
-    height: 40%;
-    width: 85%;
     background-color: var(--White);
     box-shadow: 2em 2em 5em var(--Shadow);
     border-radius: 3em;

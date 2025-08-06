@@ -11,6 +11,7 @@
       href="./assets/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
     <title>Frontend Mentor | Results summary component</title>
   </head>
   <body>
@@ -38,7 +39,7 @@
               <p>Reaction</p>
             </div>
             <p class="score-value">
-              <span class="actual-value">80</span> / 100
+              <span id="reactionScore" class="actual-value"></span> / 100
             </p>
           </div>
           <div class="stats memory">
@@ -50,7 +51,7 @@
               <p>Memory</p>
             </div>
             <p class="score-value">
-              <span class="actual-value">92</span> / 100
+              <span id="memoryScore" class="actual-value"></span> / 100
             </p>
           </div>
           <div class="stats verbal">
@@ -62,7 +63,7 @@
               <p>Verbal</p>
             </div>
             <p class="score-value">
-              <span class="actual-value">61</span> / 100
+              <span id="verbalScore" class="actual-value"></span> / 100
             </p>
           </div>
           <div class="stats visual">
@@ -74,7 +75,7 @@
               <p>Visual</p>
             </div>
             <p class="score-value">
-              <span class="actual-value">73</span> / 100
+              <span id="visualScore" class="actual-value"></span> / 100
             </p>
           </div>
           <button type="button">Continue</button>
