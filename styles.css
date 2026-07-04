@@ -1,0 +1,47 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --navy-950: #303b59;
+  --navy-200: #cac9ff;
+  --navy-50: #ecf2ff;
+  --blue-800: #1125d6;
+  --blue-50: #f3f4fd;
+  --yellow-400: #ffb21e;
+  --yellow-50: #fffbf4;
+  --red-400: #ff5555;
+  --red-50: #fff6f6;
+  --green-500: #00bb8f;
+  --green-50: #f2fcf9;
+  --gradient-1: linear-gradient(#4d21c9, #2521c9);
+  --gradient-2: linear-gradient(#7755ff, #2f2ce9;);
+  --text-preset-1-fs: 4.5rem;
+  --text-preset-1-fw: 800;
+  --text-preset-2-fs: 3.5rem;
+  --text-preset-2-fs: 800;
+  --text-preset-3-fs: 2rem;
+  --text-preset-3-fs: 700;
+  --text-preset-3-lh: 130%;
+  --text-preset-4-fs: 1.5rem;
+  --text-preset-4-fs: 700;
+  --text-preset-4-lh: 130%;
+  --text-preset-5-fs: 1.125rem;
+  --text-preset-5-fs: 700;
+  --text-preset-5-lh: 130%;
+  --text-preset-5-med-fs: 1.125rem;
+  --text-preset-5-med-fs: 500;
+  --text-preset-5-med-lh: 130%;
+  --text-preset-6-fs: 1rem;
+  --text-preset-6-fs: 700;
+  --text-preset-6-lh: 130%;
+  --text-preset-6-med-fs: 1rem;
+  --text-preset-6-med-fs: 500;
+  --text-preset-6-med-lh: 130%;
+}
