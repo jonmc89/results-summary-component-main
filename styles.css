@@ -21,27 +21,39 @@
   --green-500: #00bb8f;
   --green-50: #f2fcf9;
   --gradient-1: linear-gradient(#4d21c9, #2521c9);
-  --gradient-2: linear-gradient(#7755ff, #2f2ce9;);
-  --text-preset-1-fs: 4.5rem;
+  --gradient-2: linear-gradient(#7755ff, #2f2ce9);
+  --text-preset-1-fs: 72px;
   --text-preset-1-fw: 800;
-  --text-preset-2-fs: 3.5rem;
+  --text-preset-2-fs: 56px;
   --text-preset-2-fs: 800;
-  --text-preset-3-fs: 2rem;
+  --text-preset-3-fs: 32px;
   --text-preset-3-fs: 700;
   --text-preset-3-lh: 130%;
-  --text-preset-4-fs: 1.5rem;
+  --text-preset-4-fs: 24px;
   --text-preset-4-fs: 700;
   --text-preset-4-lh: 130%;
-  --text-preset-5-fs: 1.125rem;
+  --text-preset-5-fs: 18px;
   --text-preset-5-fs: 700;
   --text-preset-5-lh: 130%;
-  --text-preset-5-med-fs: 1.125rem;
+  --text-preset-5-med-fs: 18px;
   --text-preset-5-med-fs: 500;
   --text-preset-5-med-lh: 130%;
-  --text-preset-6-fs: 1rem;
+  --text-preset-6-fs: 16px;
   --text-preset-6-fs: 700;
   --text-preset-6-lh: 130%;
-  --text-preset-6-med-fs: 1rem;
+  --text-preset-6-med-fs: 16px;
   --text-preset-6-med-fs: 500;
   --text-preset-6-med-lh: 130%;
+}
+
+/* Main Styles */
+
+body {
+  font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
+}
+
+.results-section {
+  background: linear-gradient(#7755ff, #2f2ce9);
+  width: 100%;
+  height: 22.25rem;
 }
