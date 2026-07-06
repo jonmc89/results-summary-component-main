@@ -53,6 +53,10 @@ body {
   font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
 }
 
+.card {
+  min-width: 18.75rem;
+}
+
 .results-section {
   display: flex;
   justify-content: center;
@@ -170,6 +174,9 @@ h3 {
 }
 
 .summary-score {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-weight: var(--text-preset-6-fw);
   font-size: var(--text-preset-6-fs);
   line-height: var(--text-preset-6-lh);
